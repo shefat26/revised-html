@@ -1,0 +1,26 @@
+
+.parent{
+
+    display: flex;
+    border: 1px solid green;
+    margin: 15px;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+
+
+.child1{
+
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    /* justify-content: end; */
+    align-items: center;
+
+
+    flex-direction: column;
+}
