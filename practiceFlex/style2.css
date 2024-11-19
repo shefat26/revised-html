@@ -30,6 +30,7 @@ body {
     /* flex-direction: row; */
     /* flex-wrap: wrap; */
     flex-flow: row wrap;
+    /* flex-flow: row nowrap ; */
     align-content: center;
 
 }
@@ -47,10 +48,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-basis: 250px;
+    flex-shrink: 1;
 }
 
 
 .box:nth-child(6){
 
-    flex-grow: 2;
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+    flex: 2 2 250px;
+
+    order: 3;
 }
